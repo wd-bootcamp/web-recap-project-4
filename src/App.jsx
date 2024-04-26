@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <h1>Theme Creator</h1>
-      <br />
 
       <h2>{initialTheme.name}</h2>
 

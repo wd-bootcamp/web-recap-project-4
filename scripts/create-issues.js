@@ -7,8 +7,8 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
 
-const templateOwner = "doemser"; // Owner of the template repository
-const templateRepo = "test-project"; // Name of the template repository
+const templateOwner = "neuefische"; // Owner of the template repository
+const templateRepo = "web-react-recap-project"; // Name of the template repository
 
 const targetOwner = process.env.REPO_OWNER; // Owner of the target repository
 const targetRepo = process.env.REPO_NAME; // Name of the target repository

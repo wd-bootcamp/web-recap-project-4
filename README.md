@@ -51,6 +51,8 @@ npm run create-issues
 
 🚨 Make sure to run `npm run create-issues` only once for your repository.
 
+✅ After creating the issues to can revoke the token you created, if you do not want to let it expire
+
 ### Step 5: Create a GitHub Project Board
 
 1. **Go to your repository** on GitHub.

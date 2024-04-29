@@ -57,7 +57,7 @@ npm run create-issues
 
 1. **Go to your repository** on GitHub.
 2. **Click on 'Projects'**: Find the 'Projects' tab and click on it.
-3. **Create a new project**: Click "New project", name your project, and choose the neuefische template "web-react-recap-template"
+3. **Create a new project**: Click "New project", name your project, and choose the "Board" template
 
 ### Step 6: Bulk Add Issues to the Project Board
 

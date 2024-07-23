@@ -1,4 +1,4 @@
-# Recap Project 6: Theme Creator
+# Recap Project 4: Theme Creator
 
 ## Getting Started with the GitHub Repository Template
 

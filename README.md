@@ -32,7 +32,7 @@ Click on the "Use this template" button on the GitHub template repository page t
      ```bash
      cp .env.example .env
      ```
-   - Open the new created `.env` file.
+   - Open the newly created `.env` file.
    - Fill in your GitHub username, repository name, and the personal access token you created:
      ```plaintext
      GITHUB_TOKEN=your_personal_access_token_here

@@ -39,7 +39,7 @@ Click on the "Use this template" button on the GitHub template repository page t
      REPO_OWNER=your_github_username
      REPO_NAME=your_repository_name
      ```
-3. - **Check .gitignore**: Ensure that your `.env` file is listed in your `.gitignore` file to prevent it from being committed to your GitHub repository.
+3. - **Check `.gitignore`**: Ensure that your `.env` file is listed in your `.gitignore` file to prevent it from being committed to your GitHub repository.
 
 > 🚨 If you accidentally pushed your access token to GitHub, make sure to regenerate or remove it as fast as possible! This potentially grants access to your GitHub account.
 

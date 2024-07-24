@@ -44,7 +44,7 @@ Click on the "Use this template" button on the GitHub template repository page t
 > 🚨 If you accidentally pushed your access token to GitHub, make sure to regenerate or remove it as fast as possible! This potentially grants access to your GitHub account.
 
 <details>
-  <summary> 💡 What is a .env file?</summary>
+  <summary> 💡 What is a `.env` file?</summary>
 
 In the `.env file`, you can define variables and their values, which the application will read at runtime. This approach helps keep sensitive information, such as API keys and database credentials, secure and separate from the application's source code.
 

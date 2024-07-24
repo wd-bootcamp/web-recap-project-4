@@ -82,13 +82,6 @@ npm run create-issues
 ### Step 7: Deploy to Vercel
 1. **Go to Vercel**: Visit [Vercel](https://vercel.com/jessicaloers-projects) and sign up or log in.
 2. **Import your project**: Click on "New Project" and select your GitHub repository.
-3. **Configure Environment Variables**:  After importing your project, go to the "Settings" tab of your Vercel project, and navigate to "Environment Variables". Add the same variables from your `.env` file:
-
-```plaintext
-GITHUB_TOKEN=your_personal_access_token_here
-REPO_OWNER=your_github_username
-```
-
 
 ### Step 8: Start working and have fun. 🌈
 

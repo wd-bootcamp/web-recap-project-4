@@ -2,7 +2,7 @@
 
 ## Getting Started with the GitHub Repository Template
 
-This template is designed to help you quickly start a new project with predefined issues and a GitHub project board. 
+This template is designed to help you quickly start a new project with predefined issues and a GitHub project board.
 
 > 💡 **Recommendation**: Read this entire guide carefully before executing the steps to ensure a smooth setup process.
 
@@ -29,16 +29,20 @@ Click on the "Use this template" button on the GitHub template repository page t
 2. **Create `.env` file**:
    - Navigate to the root directory of your cloned repository.
    - Use the command line to create a copy of the `.env.example` file:
+
      ```bash
      cp .env.example .env
      ```
+
    - Open the newly created `.env` file.
    - Fill in your GitHub username, repository name, and the personal access token you created:
+
      ```plaintext
      GITHUB_TOKEN=your_personal_access_token_here
      REPO_OWNER=your_github_username
      REPO_NAME=your_repository_name
      ```
+
 3. - **Check `.gitignore`**: Ensure that your `.env` file is listed in your `.gitignore` file to prevent it from being committed to your GitHub repository.
 
 > 🚨 If you accidentally pushed your access token to GitHub, make sure to regenerate or remove it as fast as possible! This potentially grants access to your GitHub account.
@@ -70,7 +74,8 @@ npm run create-issues
 
 1. **Go to your repository** on GitHub.
 2. **Click on "Projects"**: Find the "Projects" tab and click on it.
-3. **Create a new project**: Click "New project", name your project, and choose the "Board" template.
+3. **Create a new project**: Click "New project", choose the "Board" template and name your project.
+4. **Ensure that the visibility of your board is set to 'public'.**
 
 ### Step 6: Bulk Add Issues to the Project Board
 
@@ -80,6 +85,7 @@ npm run create-issues
 4. **Add to project**: Select all items and click "Add selected items".
 
 ### Step 7: Deploy to Vercel
+
 1. **Go to Vercel**: Visit [Vercel](https://vercel.com/jessicaloers-projects) and sign up or log in.
 2. **Import your project**: Click on "New Project" and select your GitHub repository.
 
@@ -90,5 +96,3 @@ Start the development server:
 ```bash
 npm run dev
 ```
-
-

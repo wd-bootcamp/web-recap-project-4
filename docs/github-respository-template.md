@@ -75,7 +75,7 @@ npm run create-issues
 1. **Go to your repository** on GitHub.
 2. **Click on "Projects"**: Find the "Projects" tab and click on it.
 3. **Create a new project**: Click "New project", choose the "Board" template and name your project.
-4. **Ensure that the visibility of your board is set to 'public'.**
+4. **Ensure that the visibility of your board is set to 'public'.** (see Settings -> Danger Zone -> Visibility)
 
 ### Step 6: Bulk Add Issues to the Project Board
 

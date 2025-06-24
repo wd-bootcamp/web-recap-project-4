@@ -86,7 +86,7 @@ npm run create-issues
 
 ### Step 7: Deploy to Vercel
 
-1. **Go to Vercel**: Visit [Vercel](https://vercel.com/jessicaloers-projects) and sign up or log in.
+1. **Go to Vercel**: Visit [Vercel](https://vercel.com) and sign up or log in.
 2. **Import your project**: Click on "New Project" and select your GitHub repository.
 
 ### Step 8: Start working and have fun. 🌈

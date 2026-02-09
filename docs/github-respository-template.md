@@ -37,7 +37,7 @@ Now you need to create the Issues in your new Github Repository to track your ta
 
 ### Step 5: Deploy to Vercel
 
-1. **Go to Vercel**: Visit [Vercel](https://vercel.com/jessicaloers-projects) and sign up or log in.
+1. **Go to Vercel**: Visit [Vercel](https://vercel.com/) and sign up or log in.
 2. **Import your project**: Click on "New Project" and select your GitHub repository.
 
 ### Step 6: Start working and have fun. 🌈

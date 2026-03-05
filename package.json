@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "create-issues": "node scripts/create-issues.js"
   },
   "dependencies": {
     "@octokit/rest": "^20.1.0",

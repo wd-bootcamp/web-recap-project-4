@@ -12,35 +12,30 @@ Click on the "Use this template" button on the GitHub template repository page t
 
 ### Step 2: Create Issues
 
-Now you need to create the Issues in your new Github Repository to track your tasks across the project:
+Clone the Github repository to your local maschine.
 
-1. Go to the [tasks folder](./tasks). You find the list of tasks for this project.
-2. For each task do the following:
-   - Copy the content of the markdown file.
-   - Go to the `Issues` section of your Github Repo and create a new Issue.
-   - Paste the copied content into the main text field and use the name of the markdown file as the Issue title.
-   - Save the new Isssue.
+Now you need to create the Issues in your new Github Repository to track your tasks across the project:
+In the root project folder run the script: 
+```bash 
+npm run create-issues
+```
+This script makes use of the Github CLI and creates 8 issues in your Github Repository. You can find them now in the `Issues` tab of your Github Repository.
 
 ### Step 3: Create a GitHub Project Board
 
 1. **Go to your repository** on GitHub.
 2. **Click on "Projects"**: Find the "Projects" tab and click on it.
 3. **Create a new project**: Click "New project", choose the "Board" template and name your project.
-4. **Ensure that the visibility of your board is set to 'public'.**
+4. **Import Items from Repository:** Make sure this option is checked.
+5. **Create Project**
+4. **Ensure that the visibility of your board is set to 'public':** More Options (3 Dot Button) -> Settings -> Danger Zone -> Visibility
 
-### Step 4: Bulk Add Issues to the Project Board
-
-1. **Add issues**: Click on "Add item" in the "ToDo" column.
-2. **Select issues**: Click on the "+" and "Add item from repository".
-3. **Select repository**: Select your project.
-4. **Add to project**: Select all items and click "Add selected items".
-
-### Step 5: Deploy to Vercel
+### Step 4: Deploy to Vercel
 
 1. **Go to Vercel**: Visit [Vercel](https://vercel.com/) and sign up or log in.
 2. **Import your project**: Click on "New Project" and select your GitHub repository.
 
-### Step 6: Start working and have fun. 🌈
+### Step 5: Start working and have fun. 🌈
 
 Start the development server:
 

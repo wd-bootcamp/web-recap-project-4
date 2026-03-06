@@ -23,7 +23,15 @@ function installGh() {
 
   if (platform === "darwin") {
     console.log("GitHub CLI wird über Homebrew installiert...");
-    execSync("brew install gh", { stdio: "inherit" });
+    try {
+      execSync("brew install gh", { stdio: "inherit" });
+    } catch (e) {
+      console.error(
+        "Fehler beim Installieren von gh über Homebrew:",
+        e.message,
+      );
+      process.exit(1);
+    }
   } else if (platform === "win32") {
     console.log("GitHub CLI wird über winget installiert...");
     try {
@@ -96,7 +104,12 @@ const files = readdirSync(templatesDir).filter((file) => file.endsWith(".md"));
 // 4️⃣ Issues erstellen
 for (const file of files) {
   const filePath = join(templatesDir, file);
-  const title = basename(file, ".md");
+  const title = basename(file, ".md")
+    .split("-")
+    .map((str, index) =>
+      index === 0 ? `#${str}:` : str.charAt(0).toUpperCase() + str.slice(1),
+    )
+    .join(" ");
 
   console.log(`Erstelle Issue: ${title}`);
   execSync(`gh issue create --title "${title}" --body-file "${filePath}"`, {

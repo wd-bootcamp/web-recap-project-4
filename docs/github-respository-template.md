@@ -21,7 +21,7 @@ Click on the "Use this template" button on the GitHub template repository page t
 
 ### Step 3: Deploy to Vercel
 
-1. **Go to Vercel**: Visit [Vercel](https://vercel.com/) and sign up or log in.
+1. **Go to Vercel**: Visit [Vercel](https://github.com/wd-bootcamp/cohort-template/blob/main/docs/deployment-vercel.md) and sign up or log in.
 2. **Import your project**: Click on "New Project" and select your GitHub repository.
 
 ### Step 4: Start working and have fun. 🌈
